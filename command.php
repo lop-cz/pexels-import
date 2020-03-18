@@ -19,7 +19,7 @@ class Pexels_Import_Command extends WP_CLI_Command {
 	/**
 	 * Pexels API key
 	 */
-	const PEXELS_API_KEY = '563492ad6f9170000100000147b95f140fe441b858072ac5940c9ba0';
+	const PEXELS_API_KEY = '563492ad6f9170000100000133669bb625404004a63489a1f427bdde';
 	
 	/**
 	 * Image sizes supported by Pexels API.
