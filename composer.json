@@ -1,0 +1,30 @@
+{
+    "name": "lop-cz/pexels-import",
+    "description": "Download and import photos from Pexels into Media Library.",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/lop-cz/pexels-import",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Petr Bastan",
+            "email": "lop@lop.cz",
+            "homepage": "https://lop.cz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "files": [ "command.php" ]
+    },
+    "require": {
+        "wp-cli/wp-cli": "^2"
+    },
+    "require-dev": {
+        "behat/behat": "~2.5"
+    },
+    "extra": {
+        "commands": [
+            "media pexels photo"
+        ]
+    }
+}
